@@ -1,7 +1,0 @@
-streamlit
-langchain
-langchain-community
-langchain-mistralai
-python-dotenv
-faiss-cpu
-pymupdf
