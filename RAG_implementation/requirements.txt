@@ -1,0 +1,16 @@
+streamlit
+python-dotenv
+# LangChain and Langgraph
+langchain
+langgraph
+
+# Vector store
+chromadb
+
+# Embeddings
+sentence-transformers
+transformers
+torch
+# For file processing
+tqdm
+unstructured
