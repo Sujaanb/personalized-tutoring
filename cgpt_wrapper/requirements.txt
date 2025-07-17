@@ -1,0 +1,27 @@
+# Core dependencies
+langchain>=0.1.16
+langchain-community>=0.0.34
+langchain-openai>=0.1.8
+langchain-mistralai>=0.0.4
+openai
+mistralai
+
+# PDF processing
+PyPDF2
+
+# Embeddings
+sentence-transformers
+faiss-cpu
+
+# Text splitting, environment
+tiktoken
+python-dotenv
+
+# Streamlit UI
+streamlit
+
+# Optional: use tf-keras if Keras 3 breaks compatibility
+tf-keras
+
+# Fix Transformers compatibility (if using HuggingFace inside sentence-transformers)
+transformers<4.39  # Known issues with >4.39 + keras 3
